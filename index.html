@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Page</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Header Image */
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Navigation Menu */
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu li a button {
+            background-color: #333;
+            color: rgb(242, 237, 237);
+            border: none;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu li a button:hover {
+            background-color: #e9e7e7;
+        }
+
+        /* Centered and Resized Image */
+        .center-image {
+            display: block;
+            margin: 20px auto;
+            width: 40%;
+            height: auto;
+        }
+
+        /* About Page Styles */
+        .header {
+            background-color: #fcfcfc;
+            color: rgb(16, 16, 16);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: rgb(9, 9, 9);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            color: #06080c;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .content ul {
+            list-style-type: disc;
+            margin: 10px 20px;
+        }
+
+        .content ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Achievements Page Styles */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Departments Page Styles */
+        .card {
+            background-color: #f7e4d8;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 1em;
+            color: #333;
+            text-align: center;
+        }
+
+        .card:hover {
+            background-color: #ffdec7;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Image -->
+    <img src="http://pvpsit.ac.in/new_images/head.jpg" alt="PVPSIT Header" style="width: 100%;">
+
+    <!-- Navigation Menu -->
+    <ul class="menu">
+        <li><a href="#about"><button>About</button></a></li>
+        <li><a href="#departments"><button>Departments</button></a></li>
+        <li><a href="#achievements"><button>Achievements</button></a></li>
+    </ul>
+
+    <!-- Centered and Resized Image -->
+    <img class="center-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Ke9_eCcHMLQvZnSFQHmmonfIJEiKN5DuWw&s" alt="Centered Image">
+
+    <!-- About Section -->
+    <section id="about">
+        <header class="header">
+            <h1>About PVPSIT</h1>
+        
+            <p>
+                Prasad V. Potluri Siddhartha Institute of Technology (PVPSIT) is one of the premier engineering institutions located in Vijayawada, Andhra Pradesh. Established in 1998, PVPSIT has earned a reputation for its commitment to academic excellence, innovation, and holistic student development. The institution is affiliated with Jawaharlal Nehru Technological University, Kakinada (JNTUK), and is accredited by the National Board of Accreditation (NBA) and the National Assessment and Accreditation Council (NAAC).
+            </p>
+
+        <section class="mission-vision">
+            <h2>Mission and Vision</h2>
+            <p>
+                PVPSIT aims to empower students with quality education, foster innovation and creativity, and prepare them to face the challenges of the global workforce. The vision of the institute is to become a center of excellence in technical education and research, contributing to the progress of society.
+            </p>
+            <h2>Academic Excellence</h2>
+            <p>
+                The institute offers undergraduate and postgraduate programs in various engineering disciplines such as Computer Science, Electronics, Mechanical, Civil, and Electrical Engineering. PVPSIT is known for its highly qualified faculty, state-of-the-art infrastructure, and a curriculum designed to meet industry standards. The institution focuses on blending theoretical knowledge with practical exposure, ensuring students are well-prepared for their careers.
+            </p>
+
+        <section class="student-life">
+            <h2>Student Life</h2>
+            <p>
+                PVPSIT encourages students to participate in a wide range of extracurricular activities, including cultural events, technical fests, and sports meets. The institute has active student clubs and organizations such as the Literary Club, GDG Club, and Women Cell, providing platforms for students to showcase their talents and develop leadership skills.
+            </p>
+            <h2>Achievements</h2>
+            <p>
+                Over the years, PVPSIT has garnered several accolades for its academic and extracurricular achievements. The institute has been consistently ranked among the top engineering colleges in the region. Its students and faculty have also made significant contributions to research and innovation, earning recognition at national and international levels.
+            </p>
+            <h2>Future Initiatives</h2>
+            <p>
+                With a focus on continuous improvement, PVPSIT is committed to introducing new programs, enhancing research facilities, and expanding its global collaborations. The institute envisions becoming a leader in technical education and contributing to the nation's development.
+            </p>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments">
+        <div class="container">
+            <h1>Departments</h1>
+            <div class="grid">
+                <div class="card">Computer Science & Engineering</div>
+            <div class="card">Computer Science and Engineering (Artificial Intelligence and Machine Learning)</div>
+            <div class="card">Computer Science and Engineering (Data Science)</div>
+            <div class="card">Information Technology</div>
+            <div class="card">Electronics and Communication Engineering (ECE)</div>
+            <div class="card">Electrical and Electronics Engineering</div>
+            <div class="card">Mechanical Engineering</div>
+            <div class="card">Civil Engineering</div>
+            <div class="card">Freshman Engineering</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <div class="container">
+            <h1>Achievements</h1>
+            <div class="grid">
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Mx5Ve4YhgAVQyowUwF7AYGE-nmBhUvq0Dw&s" alt="Achievement 1">
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNLG0t9WE3ihPXtVWlLXkELAoHahOetNXLKA&s" alt="Achievement 2">
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0Ig7xt2HNFnco0MnJXdnAPmdklOzlk10kA&s" alt="Achievement 3">
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVY4GQCr9fP6Qp-iU-HE8q1jeFUDXdRB0eSA&s" alt="Achievement 4">
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREArntwWq3jNrYv-ayECaCA2wjhV_oPO6Utg&s" alt="Achievement 5">
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnVRtFzyxGLgWigvdWVbsWjiz0XkxsbJE4XA&s" alt="Achievement 6">
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSieo9OHEjtaomDrniub1e6OEA8sWenjj6Q2g&s" alt="Achievement 7">
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaVoB5tsp07bm_yG4svKxLO2Pwoz3gCN6BHw&s" alt="Achievement 8">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
